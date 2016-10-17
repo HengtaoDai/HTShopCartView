@@ -1,19 +1,19 @@
 //
-//  SizeView.m
-//  WaiTanXS
+//  HTSizeView.m
+//  Test
 //
 //  Created by HengtaoDai on 16/10/9.
 //  Copyright © 2016年 HYcompany. All rights reserved.
 //
 
-#import "WTSizeView.h"
+#import "HTSizeView.h"
 
 static const NSString *strSizeName = @"name";   //型号名称
 static const NSString *strSizeItems = @"items"; //型号值数组
 static const CGFloat kSpaceHorizontal = 10;   //按钮之间的水平方向间隔
 static const CGFloat kSpaceVertical = 5;   //按钮之间的垂直方向间隔
 
-@implementation WTSizeView
+@implementation HTSizeView
 {
     UILabel     *_lblName;
     UIButton    *_btnPreSelect;
